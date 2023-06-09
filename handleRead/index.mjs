@@ -11,6 +11,7 @@ const books = dynamoose.model('books', schema);
 
 export const handler = async(event) => {
   // console.log('this is the body', event.body);
+  // remember: event.pathParameters.id
   // TODO implement
   const response = { statusCode: null, body: null };
   
